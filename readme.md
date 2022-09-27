@@ -23,6 +23,6 @@
 
 ---
 
-## [Live-Link](https://project-10-interior-design-landing-pg.netlify.app/)
+## [Live-Link](https://project-11-hosting-landing-page1.netlify.app/)
 
 ---
