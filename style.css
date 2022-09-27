@@ -1,0 +1,997 @@
+*{
+    background-color: #FDFEFF;
+    border: 0;  
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    padding: 0rem 0.5rem 0rem 0.5rem;
+}
+body{
+    background-color: #FDFEFF;
+    border: 0;  
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+   
+
+}
+
+/*  Navbar Starts */
+header{
+    height: 15vh;
+}
+.navbar{
+    margin-top: 2rem;
+    display: flex;
+    flex:2;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    width: 8rem;
+}
+
+.items{
+    align-items: center;
+    display: flex;
+    list-style-type: none;
+    color:#7f8fa6;
+    column-gap: 1.5rem;
+    font-weight: 500;
+}
+
+.item:hover{
+    cursor: pointer;
+    color: #000000;
+    transition: all 0.3s;
+}
+
+.btn1{
+    
+    background-image: linear-gradient(to right bottom,#08ABF5, #056CEC);
+    padding: 0.8rem .8rem;
+    border-radius: 0.5rem;
+    position: relative;
+    z-index: 1;
+cursor: pointer;
+
+}
+  
+.btn1::after{
+    content: "";
+    position: absolute;
+    background-color:#FDFEFF;
+    display: block;
+    top: 0.1rem;
+    right: 0rem;
+    bottom: 0rem;
+    left:0.1rem;
+    width:8rem;
+    height: 2.65rem;
+    border-radius: 0.4rem;
+    z-index: -1;
+} 
+
+.btn1 span{
+    display: flex;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to right bottom,#08ABF5, #056CEC);
+    background-clip: text;
+  -webkit-background-clip: text;
+  z-index:1;
+  color:transparent;
+  font-weight: 700;
+  cursor: pointer;
+}
+.dropdown{
+    display: none;
+}
+/* section-1 Starts */
+.section1{
+    margin-top: 3rem;
+    display: flex;
+    justify-content: space-between;  
+    flex:2;
+    align-items: center;
+}
+.leftcolumn1{
+    flex: 1;
+    flex-direction: column;
+    justify-content: flex-start;
+    
+}
+.rightcolumn1{flex: 1;}
+ 
+.heading1{
+    font-size: 3rem;  
+}
+.para1{
+    margin-top: 1rem;
+    color:#7f8fa6;
+ font-size: 0.8rem;
+ width:50%;
+ line-height: 1.5rem;   
+}
+
+.btn2{
+margin-top: 2rem;
+background:linear-gradient(to right bottom,#08ABF5, #056CEC);
+color:#FDFEFF;
+padding: 0.8rem 1.5rem;
+border-radius: 0.4rem;
+box-shadow: 0rem 0.3rem 1rem #91accc;
+cursor: pointer;
+}
+
+.server{
+    height: 25rem;
+    justify-content: flex-start;
+}
+
+
+
+/*  Section-2 Starts */
+
+.section2{
+    margin-top: 10rem;
+    display: flex;
+    flex: 2;
+    justify-content: space-between;
+    align-items: center;
+}
+.leftcolumn2{
+    flex:1;
+}
+
+.rightcolumn2{
+    flex:1;
+}
+
+.para2{
+    margin-top: 1rem;
+    color:#7f8fa6;
+ font-size: 0.8rem;
+ width:70%;
+ line-height: 1.5rem;   
+}
+
+.btn3{
+    padding: 0.8rem 3rem;
+}
+
+
+/* Section-3 Starts */
+
+.section3{
+    margin-top: 10rem;
+    display: flex;
+    flex: 2;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.para3{
+    width: 65%;
+}
+
+ /*  section-4 Starts */
+
+.section4{
+    margin-top: 10rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex: 2;
+}
+.heading4{
+    flex:1;
+    font-size: 3rem;  
+}
+    
+.para4{
+    flex: 1;
+    color:#7f8fa6;
+    font-size: 0.8rem;
+}
+
+/* section 5 starts */
+
+.cardsection1{
+    margin-top: 5rem;
+    display: flex;
+    flex-flow: wrap row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 7rem;
+}
+.card{
+    width: 25rem;   
+    height: 14rem;
+    margin-bottom: 1.5rem;   
+}
+
+.card:hover{
+    box-shadow: 0.3rem 0.3rem 0.8rem #000000;
+    border-radius: 0.5rem;
+}
+
+.card_margin{
+margin: 1rem;
+}
+.card_logo{
+    width: 3rem;
+}
+.card_margin h3{
+    margin-top: 1rem;
+}
+.card_margin p{
+    margin-top: 1rem;
+    color:#7f8fa6;
+    font-size: 0.8rem;
+}
+
+/*  section-6 starts */
+
+.section6{
+    margin-top: 5rem;
+    height: 100vh;
+    background: linear-gradient(to right bottom,#08ABF5, #056CEC);
+    background-size: cover;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+   margin: 0rem -1rem;
+   
+}
+.heading6{
+   color: #FDFEFF;
+   background-color: transparent;
+   font-size: 3rem;
+   margin-top: 1rem;  
+}
+.cardsection2{
+    display: flex;
+    flex-direction: row;
+ 
+    background: transparent;
+  
+}
+
+.card2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 33rem;
+    width: 17rem;
+    margin-right: 1.2rem;  
+    background-color:#FDFEFF;
+    margin-bottom: 2.5rem;
+    border-radius: 0.5rem;
+    z-index: 2;
+    position: relative;   
+}
+.card2 .plan_detail{
+    margin: 1rem;
+    line-height: 2.3rem;
+    z-index: 1;
+    background-color: transparent;
+}
+.plan_detail p{
+    color:#7f8fa6;
+    font-size: 0.8rem;
+    width: 15rem;
+    font-weight: normal;
+    background-color: transparent;
+    position: relative;
+    right: 0.5rem;
+}
+
+.plan_detail h3{
+    background-color: transparent;
+    position: relative;
+    right: 0.5rem;
+    
+}
+.plan_detail .planhead2{
+    background-color: transparent;
+    color: #FDFEFF;
+}
+
+.plan_detail .planpara2{
+    background-color: transparent;
+    color: #cccfcf;
+}
+
+.planhead_black::before{
+    content: "";
+    position: absolute;
+    top: 0rem;
+    left:0rem;
+    right:0rem;
+    bottom: 0rem;
+    box-shadow: 0rem 0.1rem 0.5rem #2c3e50;
+    height: 6.5rem;
+    width: 18rem;
+    background-color: #2c3e50;
+    border-radius: 0.5rem;
+}
+
+.plan_detail .benefits{
+    margin-top: 2rem;
+    font-size: 0.8rem;
+    text-align: left;
+   color: #2c3e50;
+   font-weight: 500;
+   list-style-type: none;
+   width: 16rem;
+   position: relative;
+   right: 1rem;
+  
+}
+
+ .benefits .fa-circle-check{
+    color: #2ecc71;
+    width: 0.3rem;
+    transform: scale(1.2);
+}
+
+
+.plan_pricing{display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 3rem;
+   
+}
+
+
+.plan_pricing span{
+color: #7f8fa6;
+padding: 0;
+}
+
+.plan_pricing p{
+    margin-top: 1rem;
+    color: #7f8fa6;
+    font-size: 0.8rem;
+    
+    }
+
+    .plan_pricing .choose{
+        margin-top: 1.5rem;
+    }
+
+    .choose{
+    
+        background-image: linear-gradient(to right bottom,#08ABF5, #056CEC);
+        padding: 0.8rem .8rem;
+        border-radius: 0.5rem;
+        position: relative;
+        z-index: 1;
+    cursor: pointer;
+    
+    
+    
+    }
+      
+    .choose::after{
+        content: "";
+        position: absolute;
+        background-color:#FDFEFF;
+        display: block;
+        top: 0.1rem;
+        right: 0rem;
+        bottom: 0rem;
+        left:0.1rem;
+        width:6.70rem;
+        height: 2.65rem;
+        border-radius: 0.4rem;
+        z-index: -1;
+    } 
+    
+    .choose span{
+        display: flex;
+        z-index: 1;
+        width: 100%;
+        height: 100%;
+        background-image: linear-gradient(to right bottom,#08ABF5, #056CEC);
+        background-clip: text;
+      -webkit-background-clip: text;
+      z-index:1;
+      color:transparent;
+      font-weight: 700;
+    }
+    
+
+    .choose2{
+        margin-top: 1.5rem;
+    background:linear-gradient(to right bottom,#08ABF5, #056CEC);
+    color:#FDFEFF;
+    padding: 0.8rem 1.0rem;
+    border-radius: 0.4rem;
+    box-shadow: 0rem 0.3rem 1rem #91accc ;
+    cursor: pointer;
+    }
+
+
+    /* section 7 Starts */
+
+    .section7{
+        margin-top: 7rem;
+        display: flex;
+        flex-direction: column;
+      flex: 2;
+      margin-bottom: 8rem;
+    }
+     .head7{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center; 
+        flex:1;
+     }
+     .head7 h1{
+        font-size: 3rem ;
+        margin-bottom: 1.5rem;
+     }
+     .head7 p{
+        font-size: 0.8rem ;
+        color: #7f8fa6;
+        margin-bottom: 2rem;
+        text-align: center;
+        width: 50%;
+     }
+   
+     .feedbacks1{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center; 
+        align-items: center;
+     }
+     .feedbacks2{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center; 
+        align-items: center;
+     }
+
+     .feedback1{
+        border: 0.08rem solid #cccfcf;
+        width: 32rem;
+        height: 16rem;
+        margin-right:1rem;
+        margin-bottom:1rem;
+        border-radius: 0.5rem;
+     }
+     .feedback2{
+        border: 0.08rem solid #cccfcf;
+        width: 32rem;
+        height: 16rem;
+        margin-right:1rem;
+        margin-bottom:1rem;
+        border-radius: 0.5rem;
+     }
+
+     .feedback-margin{
+        margin: 1rem;
+     }
+     .feedback-margin p{
+        font-size: 0.8rem;
+        color:#2c3e50;
+     }
+
+     .author{
+        margin-top: 2.5rem;
+        display: flex;
+        flex-direction: row;
+        padding: 0; 
+     }
+     .author-pic{
+       width: 4rem;
+       padding: 0;
+     } 
+     .author_flex{
+        margin-top: 0.6rem;
+        flex-direction: column;
+        line-height: 0.8rem;
+     }
+     .author_flex h6{
+        font-size: 0.8rem;
+
+     }
+
+
+     /*  section-8 starts */
+
+
+     .section8{
+        margin-top: 8rem;
+        height: 50vh;
+        background:repeating-linear-gradient(145deg,rgb(5, 108, 236,0.73) ,rgb(5, 108, 236,0.75) 6rem,rgb(6, 131, 239,0.7) 1rem,rgb(6, 131, 239,0.8) 30rem,rgb(5, 108, 236,0.9) 3rem,rgb(6, 131, 239,0.8),rgb(5, 108, 236,0.9) 30rem) ;
+        background-size: cover;
+        background-repeat: no-repeat;
+        object-fit: cover;
+        margin: 0rem -1rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        flex: 2;
+     }
+
+     .leftcolumn8{
+        flex-direction: column;
+        flex: 1;
+       background-color: transparent;
+    }
+
+    .leftcolumn8 h1{
+        background-color: transparent;
+        color: #FDFEFF;
+        font-size: 3rem;
+    }
+
+    .leftcolumn8 p{
+        margin-top: 1rem;
+        background-color: transparent;
+        color: #cccfcf;
+        font-size: 0.8rem;
+    }
+
+
+    .rightcolumn8{
+        flex: 1;
+            text-align: right;
+            background-color: transparent;
+            margin-right: 6rem;
+    }
+    .register8{
+        background-color: transparent;
+        color: #FDFEFF;
+        font-weight: 500;
+        border: 0.05rem solid #FDFEFF;
+        padding: 0.8rem 1.5rem;
+        border-radius: 0.5rem;
+        cursor: pointer;
+    }
+
+
+    /* section-9  starts*/
+
+
+    .footer{
+        margin-top: 5rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+    .logo9{
+        width: 21rem;
+        cursor: pointer;
+    }
+    .logo99{
+        width: 7rem;
+        margin-bottom: 1rem;
+    }
+    .logo9 p{
+        color: #7f8fa6;
+        font-size: 0.8rem;
+    }
+    .menu9{
+        display: flex;
+        flex-direction: column;
+        line-height: 2.5rem;
+       
+         
+    }
+    .menu99{
+        font-size: 1rem;
+        color: #2c3e50;        
+    }
+
+    .links{
+        list-style-type: none;
+        position: relative;
+        right: 0.5rem;
+        color: #7f8fa6;
+        font-size: 0.8rem;
+        cursor: pointer;
+    }
+
+    .social-links{
+       
+        margin-top: 0.5rem;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 0;
+        position: relative;
+        right: 0.3rem;
+        cursor: pointer;
+       
+            }
+            .social-links img{
+                padding: 0;
+                margin-right: 0.5rem;
+            }
+            .fb1{
+                position: relative;
+                left: 0.4rem;
+            }
+
+          
+            @media screen and (max-width:77rem) {
+                
+/*  Section 5 */
+
+.cardsection1{
+   
+    justify-content: space-around;
+   
+}
+}
+
+@media screen and (max-width:65.63rem) {
+              
+    
+/* h1{
+    font-size: 1rem;
+} */
+
+
+
+
+    /*  Section 5 */
+    
+    .cardsection1{
+       
+        justify-content: space-around;
+       
+    } 
+
+    /*  Section 7 */
+    .feedback1{
+       
+        margin-bottom:2rem;
+        
+     }
+     .feedback2{
+        
+        margin-bottom:2rem;
+       
+     }
+    }
+
+
+
+    @media screen and (max-width: 65.63rem) and (min-width: 50rem) {
+       /* navbar */
+
+
+       .logo{
+        width: 5rem;
+       }
+
+       .items{
+        column-gap: 0.1rem;
+        font-size: 0.8rem;
+        
+    }
+    .btn1{   
+        padding: 0.67rem .4rem;
+    
+    }
+      
+    .btn1::after{
+       
+        width:7rem;
+        height: 2.4rem;
+        
+       
+    } 
+    
+    .btn1 span{
+      font-weight: 500;
+    
+    }
+
+
+    /* section-1 */
+
+    .leftcolumn1{
+        flex: 1.5;
+    }
+  
+ 
+    .heading1{
+        font-size: 2.5rem;  
+    }
+    .para1{
+    
+     width:70%;
+    
+    }
+    
+    .btn2{
+    padding: 0.6rem 1.0rem;
+    }
+    
+    .server{
+        
+        width: 20rem;       
+    }
+/*  sectiopn 2 */
+.leftcolumn2{
+    flex:0;
+}
+
+.testing{
+    width: 20rem;
+}
+.rightcolumn2{
+    flex:1.5;
+}
+
+
+
+.btn3{
+    padding: 0.6rem 1rem;
+}
+
+
+/*  section-3 */
+
+.leftcolumn3{
+    flex: 1.5;
+}
+.Csupport{
+    width: 20rem;
+}
+
+
+/* section-4 */
+.heading4{
+    flex: 1.5;
+    font-size: 2.5rem;  
+}
+
+/* section-5 */
+
+.card{
+    width: 18rem; 
+}
+.card p{
+    font-size: 0.7rem;
+}
+
+/* section -6 */
+
+
+.section6{
+height: 250vh;
+}
+
+.heading6{
+    font-size: 2.5rem;
+}
+
+.cardsection2{
+    flex-direction: column;
+}
+
+/* section-7 */
+
+.head7 h1{
+    font-size: 2.5rem;
+}
+
+/* section 8 */
+
+.leftcolumn8{
+    flex: 1.5;
+}
+.leftcolumn8 h1{
+    font-size: 2.5rem;
+}
+}
+
+
+@media screen and (min-width:25rem) and (max-width:50rem) {
+      /* navbar */
+
+
+      .logo{
+        width: 5rem;
+       }
+
+       .items{
+       display: none;
+        
+    }
+    .btn1{   
+        padding: 0.67rem .4rem;
+    
+    }
+    .dropdown{
+        display: block;
+        color: #2c3e50;
+        transform: scale(1.2);
+       cursor: pointer;
+    }
+
+    /* section-1 */
+
+    .section1{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+   
+    .leftcolumn1{
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+   .server{
+    width:30rem;
+   }
+ 
+    .heading1{
+        font-size: 1.5rem;  
+    }
+    .para1{
+        text-align: center;
+      width: 100%;
+    }
+    
+    
+    
+    .btn2{
+    padding: 0.6rem 1.0rem;
+    margin-bottom: 2rem;
+}
+    
+    
+ .server{
+        background-color: transparent;
+         width: 25rem; 
+         margin-bottom: -2rem;       
+    } 
+
+
+/*  sectiopn 2 */
+
+
+.section2{
+    
+    flex-direction: column;
+}
+
+
+.testing{
+    width: 25rem;
+    margin-bottom: 2rem;
+}
+.rightcolumn2{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+
+.btn3{
+    padding: 0.6rem 1rem;
+}
+
+
+/*  section-3 */
+
+.section3{
+    flex-direction: column;
+}
+.leftcolumn3{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+.Csupport{
+    width: 25rem;
+}
+
+
+/* section-4 */
+.section4{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.heading4{
+    flex: 1.5;
+    font-size: 1.5rem;  
+}
+
+/* section-5 */
+
+.card{
+    width: 18rem; 
+}
+.card p{
+    font-size: 0.7rem;
+}
+
+/* section -6 */
+
+
+.section6{
+height: 250vh;
+}
+
+.heading6{
+    font-size: 1.5rem;
+}
+
+.cardsection2{
+    flex-direction: column;
+}
+
+/* section-7 */
+
+.head7 h1{
+    font-size: 1.5rem;
+}
+
+.feedback1 p{
+    margin-bottom: -1rem;
+}
+.feedback2 p{
+    margin-bottom: -1rem;
+}
+/* section 8 */
+
+.section8{
+    flex-direction: column;
+    
+    align-items: center;
+    text-align: center;
+}
+
+.leftcolumn8{
+    margin-top: 5rem;
+}
+.leftcolumn8 h1{
+    font-size: 1.5rem;
+}
+
+.register8{
+    margin-top: 2rem;
+    text-align: center;
+    margin-left: 6rem;
+}
+
+/* section-9 */
+.footer{
+    justify-content: center;
+    align-items: flex-start;
+    align-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+
+}
+
+.logo9{
+    align-items: center;
+    text-align: center;
+    margin-bottom: 2rem;
+    
+}
+.menu9{
+    margin-bottom: 1rem;
+}
+}
